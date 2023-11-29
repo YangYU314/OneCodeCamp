@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    /* Add your font-family, margin, and padding here */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    /* Add your background-color and padding here */
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.site-title {
+    /* Add your color, font-size, and margin here */
+    /* margin: 0; */
+}
+
+.navigation {
+    /* Add your list-style-type, padding, and margin here */
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    /* Add your display and margin-right here */
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation li a {
+    /* Add your color and text-decoration here */
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Hero Section Styles */
+#hero {
+    /* Add your background-image, background-size, background-position, padding, text-align, and color here */
+    background-image: url('IMG_5474.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-title {
+    /* Add your font-size, margin-top, and margin-bottom here */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    /* Add your font-size, margin-top, and margin-bottom here */
+    font-size: 1.5em;
+}
+
+.hero-button {
+    /* Add your background-color, color, text-decoration, padding, font-size, and border-radius here */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: pink;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+#about {
+    /* Add your padding, text-align, and background-color here */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    /* Add your display, align-items, and justify-content here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-image {
+    /* Add your width, border-radius, and margin-right here */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    /* Add your font-size here */
+}
+
+/* Services Section Styles */
+#services {
+    /* Add your padding and text-align here */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service {
+    /* Add your margin-bottom here */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.service-icon {
+    /* Add your width and margin-bottom here */
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.service-title {
+    /* Add your font-size and margin-bottom here */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    /* Add your font-size here */
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Contact Section Styles */
+#contact {
+    /* Add your padding, text-align, and background-color here */
+    padding: 50px 0;
+    text-align: left;
+}
+
+.form-group {
+    /* Add your margin-bottom here */
+    margin-bottom: 20px;
+}
+
+label {
+    /* Add your display, font-size, font-weight, and margin-bottom here */
+}
+
+input,
+textarea {
+    /* Add your width, padding, font-size, and border-radius here */
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+}
+
+.form-button {
+    /* Add your background-color, color, border, padding, font-size, border-radius, and cursor here */
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    /* Add your background-color, padding, and text-align here */
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    /* Add your color, font-size, and margin here */
+    color: white;
+}

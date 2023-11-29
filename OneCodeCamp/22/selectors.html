@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Selectors</title>
+        <style>
+            * {
+                color: red;
+                background-color: beige;
+            }
+
+            #sample-id{
+                color: yellow;                  
+            }
+
+            .sample-class::before{
+                color: orange;
+                content: "this should..."
+                /* background-color: beige; */
+            }
+
+            #para1{
+                color: green;
+            }
+            a[href="google.com"]{
+                color: blue;
+            }
+
+            div, a{
+                color:purple;
+                font-weight: bold;
+            }
+
+            a:hover{
+                font-size: 50px;;
+            }
+        </style>
+
+    </head>
+    <body>
+        <p class="sample-class" id="sample-id">Class Seclectors</p>
+        <p id="para1">ID Selector</p>
+        <div class="attribute-sample">Attribute Selectors</div>
+        <br>
+        <a href="google.com">Google</a>
+    </body>
+</html>

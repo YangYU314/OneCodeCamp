@@ -1,0 +1,40 @@
+/* section{
+    display: flexbox;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-item{
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px;
+} */
+
+
+
+
+
+@media only screen and(max-width: 480px) {
+    .sm-0{
+        display: none;
+    }
+}
+
+@media only screen and(max-width: 481px) {
+    .md-1{
+        width: 25%;
+        background-color: red;
+    }
+}
+
+@media only screen and(max-width: 1023px) {
+    .lg-2{
+        width: 50%;
+        background-color: yellow;
+    }
+}
